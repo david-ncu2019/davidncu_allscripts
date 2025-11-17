@@ -1,0 +1,13 @@
+# Ignore everything by default
+*
+**/
+
+# But allow .ipynb files (except those with "checkpoint" in the name)
+!*.ipynb
+*checkpoint*.ipynb
+
+# And allow directories
+!*/
+
+# Allow .gitignore itself
+!.gitignore
